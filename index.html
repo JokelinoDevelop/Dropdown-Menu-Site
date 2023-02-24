@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+
+  <div class="overlay"></div>
+
+  <div class="mobile-menu" id="mobileMenu">
+
+      <div class="mobile-wrapper">
+        
+        <img src="images/icon-close-menu.svg" alt="" id="closeMenu">
+
+        <ul class="list">
+          <li class="features" id="featuresMobile">
+            <p>Features</p>
+            <img src="images/icon-arrow-down.svg" alt="" class="arrow">
+          </li>
+
+            <ul class="icons" id="features">
+              <li>
+                <img src="images/icon-todo.svg" alt="">
+                <p>Todo List</p>
+              </li>
+              <li>
+                <img src="images/icon-calendar.svg" alt="">
+                <p>Calendar</p>
+              </li>
+              <li>
+                <img src="images/icon-reminders.svg" alt="">
+                <p>Reminders</p>
+              </li>
+              <li>
+                <img src="images/icon-planning.svg" alt="">
+                <p>Planning</p>
+              </li>
+            </ul>
+
+          <li class="company" id="companyMobile">
+
+            <p>Company</p>
+            <img src="images/icon-arrow-down.svg" alt="" class="arrow">
+
+          </li>
+
+            <ul class="icons" id="company">
+
+              <li>
+                <p>History</p>
+              </li>
+
+              <li>
+                <p>Our Team</p>
+              </li>
+
+              <li>
+                <p>Blog</p>
+              </li>
+              
+            </ul>
+
+          <li><p>Careers</p></li>
+          <li><p>About</p></li>
+        </ul>
+
+        <div class="buttons">
+          <button class="login">Login</button>
+          <button class="register">Register</button>
+        </div>
+
+      </div>
+
+  </div>
+
+  <div class="header">
+
+    <div class="logo">
+      <img src="images/logo.svg" alt="">
+
+      <ul class="list">
+
+          <li class="featuresDes" id="featuresDesktop">
+            <div class="li-wrapper">
+              <p>Features</p>
+              <img src="images/icon-arrow-down.svg" alt="">
+            </div>
+            
+
+            <ul class="desktopIcons" id="featuresDes">
+
+              <li>
+                <img src="images/icon-todo.svg" alt="">
+                <p>Todo List</p>
+              </li>
+
+              <li>
+                <img src="images/icon-calendar.svg" alt="">
+                <p>Calendar</p>
+              </li>
+
+              <li>
+                <img src="images/icon-reminders.svg" alt="">
+                <p>Reminders</p>
+              </li>
+
+              <li>
+                <img src="images/icon-planning.svg" alt="">
+                <p>Planning</p>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="companyDes" id="companyDesktop">
+            <div class="li-wrapper">
+              <p>Company</p>
+              <img src="images/icon-arrow-down.svg" alt="">
+            </div>
+
+            <ul class="desktopIcons" id="companyDes">
+
+              <li>
+                <p>History</p>
+              </li>
+
+              <li>
+                <p>Our Team</p>
+              </li>
+
+              <li>
+                <p>Blog</p>
+              </li>
+              
+            </ul>
+            
+
+          </li>
+
+
+          <li><p>Careers</p></li>
+
+          <li><p>About</p></li>
+
+      </ul>
+    </div>
+
+    <div class="menu">
+      <img src="images/icon-menu.svg" alt="" id="openMenu">
+        
+      
+    </div>
+
+    <div class="desktop-menu">
+          <button class="login">Login</button>
+          <button class="register">Register</button>
+    </div>
+
+  </div>
+
+  
+
+  <div class="main">
+    <picture>
+      <source media="(min-width: 768px)" srcset="images/image-hero-desktop.png">
+      <img src="images/image-hero-mobile.png" alt="">
+    </picture>
+
+    <div class="content">
+      <div class="wrapper">
+        <h1>Make remote work</h1>
+
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+
+        <button>Learn More</button>
+      </div>
+      
+
+      <ul class="partners">
+        <li><img src="images/client-databiz.svg" alt=""></li>
+        <li><img src="images/client-audiophile.svg" alt=""></li>
+        <li><img src="images/client-meet.svg" alt=""></li>
+        <li><img src="images/client-maker.svg" alt=""></li>
+      </ul>
+
+    </div>
+
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Features
+  Company
+  Careers
+  About
+
+  Login
+  Register
+
+  
+
+  
+
+  Learn more -->
